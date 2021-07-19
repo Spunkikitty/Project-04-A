@@ -2890,7 +2890,7 @@
     content: "\f2c0"
 }
 
-.title_footer .links_1{ 
+.title_footer, .links_1{ 
     color:#fff;
     font-weight: bolder;
 }
