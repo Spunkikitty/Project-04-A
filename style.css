@@ -962,6 +962,12 @@ h4 {
         color:#FFFFFF;
         font-weight:bold;
     }
+
+    .keywords{
+        color:#cccccc;
+        font-size:14px;
+
+    }
     .hero-nav {
         left: -1px;
         right: -1px;
