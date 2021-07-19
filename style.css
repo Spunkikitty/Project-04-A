@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #f4eded!important;
+    color: #575757!important;
 }
 
 .container {
@@ -959,7 +959,7 @@ h4 {
     }
 
     .links_1 {
-        color:#FFFFFF;
+        color:#f4eded !important;
         font-weight:bold;
     }
 
