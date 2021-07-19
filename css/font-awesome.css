@@ -2890,6 +2890,10 @@
     content: "\f2c0"
 }
 
+.title_footer{ 
+    color:#fff;
+    font-weight: bolder;
+}
 .fa-id-badge:before {
     content: "\f2c1"
 }

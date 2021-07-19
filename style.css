@@ -957,6 +957,11 @@ h4 {
     .hero {
         padding: 50px 0;
     }
+
+    .link_1 {
+        color:#FFFFFF;
+        font-weight:bold;
+    }
     .hero-nav {
         left: -1px;
         right: -1px;
