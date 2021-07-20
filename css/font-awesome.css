@@ -2894,6 +2894,13 @@
     color:#fff;
     font-weight: bolder;
 }
+.links_1 {
+    color:#f4eded !important;
+    font-weight:bold;
+    height:48px;
+    width:48px;
+}
+
 .fa-id-badge:before {
     content: "\f2c1"
 }
