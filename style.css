@@ -961,6 +961,8 @@ h4 {
     .links_1 {
         color:#f4eded !important;
         font-weight:bold;
+        height:48px;
+        width:48px;
     }
 
     .keywords{
