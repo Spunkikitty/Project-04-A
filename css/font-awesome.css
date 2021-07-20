@@ -2897,9 +2897,8 @@
 .links_1 {
     color:#f4eded !important;
     font-weight:bold;
-    height:48px;
-    width:48;
-    margin:20px;
+    padding: 48dp;
+    margin:8px;
 
 }
 
