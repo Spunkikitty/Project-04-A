@@ -1,0 +1,28 @@
+{
+  "name": "project-04-a",
+  "version": "1.0.0",
+  "description": "Mike's Website on github for SEO optimizing ",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"node test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spunkikitty/Project-04-A.git"
+  },
+  "keywords": [
+    "Project",
+    "four"
+  ],
+  "author": "Ebony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spunkikitty/Project-04-A/issues"
+  },
+  "homepage": "https://github.com/Spunkikitty/Project-04-A#readme"
+}
