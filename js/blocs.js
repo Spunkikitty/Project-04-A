@@ -194,7 +194,14 @@ $(document).ready(function() {
             scrollTop: $("#scroll-hero").closest(".bloc").height()
         }, "slow")
     }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf("Safari") && -1 == navigator.userAgent.indexOf("Chrome") && $("#page-loading-blocs-notifaction").remove()
-}), $(window).load(function() {
+}), try {
+    nonExistentFunction();
+  } catch ($ window).load(function() {
+    console.error($(window).load(function();
+    // expected output: ReferenceError: nonExistentFunction is not defined
+    // Note - error messages will vary depending on browser
+  }
+   {
     setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifaction").remove()
 }).resize(function() {
     setFillScreenBlocHeight()
