@@ -943,4 +943,18 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
             d.offset = d.offset || {}, null != d.offsetBottom && (d.offset.bottom = d.offsetBottom), null != d.offsetTop && (d.offset.top = d.offsetTop), b.call(c, d)
         })
     })
+
+    const imagemin = require('imagemin');
+const imageminWebp = require('imagemin-webp');
+
+(async () => {
+	await imagemin(['images/*.{jpg,png}'], {
+		destination: 'build/images',
+		plugins: [
+			imageminWebp({quality: 50})
+		]
+	});
+
+	console.log('Images optimized');
+})();
 }(jQuery);
