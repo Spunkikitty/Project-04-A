@@ -948,7 +948,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
 const imageminWebp = require('imagemin-webp');
 
 (async () => {
-	await imagemin(['images/favicon.{jpg}'], {
+	await imagemin(['images/favicon.{jpg,}'], {
 		destination: 'build/images',
 		plugins: [
 			imageminWebp({quality: 50})
@@ -956,7 +956,7 @@ const imageminWebp = require('imagemin-webp');
 	});
 
     (async () => {
-        await imagemin(['images/2.{jpg}'], {
+        await imagemin(['images/2.{jpg,}'], {
             destination: 'build/images',
             plugins: [
                 imageminWebp({quality: 50})
@@ -964,14 +964,14 @@ const imageminWebp = require('imagemin-webp');
         });
 
         (async () => {
-            await imagemin(['images/3.{bmp}'], {
+            await imagemin(['images/3.{bmp,}'], {
                 destination: 'build/images',
                 plugins: [
                     imageminWebp({quality: 50})
                 ]
             });
             (async () => {
-                await imagemin(['images/4.{bmp}'], {
+                await imagemin(['images/4.{bmp,}'], {
                     destination: 'build/images',
                     plugins: [
                         imageminWebp({quality: 50})
@@ -987,14 +987,14 @@ const imageminWebp = require('imagemin-webp');
                     });
 
                     (async () => {
-                        await imagemin(['images/11.{jpg}'], {
+                        await imagemin(['images/11.{jpg,}'], {
                             destination: 'build/images',
                             plugins: [
                                 imageminWebp({quality: 50})
                             ]
                         });
                         (async () => {
-                            await imagemin(['images/atlanta made sign.{jpg}'], {
+                            await imagemin(['images/atlanta made sign.{jpg,}'], {
                                 destination: 'build/images',
                                 plugins: [
                                     imageminWebp({quality: 50})
@@ -1002,7 +1002,7 @@ const imageminWebp = require('imagemin-webp');
                             });
 
                             (async () => {
-                                await imagemin(['images/atlanta web design logo.{png}'], {
+                                await imagemin(['images/atlanta web design logo.{png,}'], {
                                     destination: 'build/images',
                                     plugins: [
                                         imageminWebp({quality: 50})
@@ -1010,7 +1010,7 @@ const imageminWebp = require('imagemin-webp');
                                 });
 
                                 (async () => {
-                                    await imagemin(['images/atlanta web designer mike.{png}'], {
+                                    await imagemin(['images/atlanta web designer mike.{png,}'], {
                                         destination: 'build/images',
                                         plugins: [
                                             imageminWebp({quality: 50})
@@ -1018,7 +1018,7 @@ const imageminWebp = require('imagemin-webp');
                                     });
 
                                     (async () => {
-                                        await imagemin(['images/dots-bg.{png}'], {
+                                        await imagemin(['images/dots-bg.{png,}'], {
                                             destination: 'build/images',
                                             plugins: [
                                                 imageminWebp({quality: 50})
@@ -1026,7 +1026,7 @@ const imageminWebp = require('imagemin-webp');
                                         });
 
                                         (async () => {
-                                            await imagemin(['images/lines-h2-bg.{png}'], {
+                                            await imagemin(['images/lines-h2-bg.{png,}'], {
                                                 destination: 'build/images',
                                                 plugins: [
                                                     imageminWebp({quality: 50})
@@ -1034,28 +1034,28 @@ const imageminWebp = require('imagemin-webp');
                                             });
 
                                             (async () => {
-                                                await imagemin(['images/quote.{png}'], {
+                                                await imagemin(['images/quote.{png,}'], {
                                                     destination: 'build/images',
                                                     plugins: [
                                                         imageminWebp({quality: 50})
                                                     ]
                                                 });
                                                 (async () => {
-                                                    await imagemin(['images/texture-paper.{png}'], {
+                                                    await imagemin(['images/texture-paper.{png,}'], {
                                                         destination: 'build/images',
                                                         plugins: [
                                                             imageminWebp({quality: 50})
                                                         ]
                                                     });
                                                     (async () => {
-                                                        await imagemin(['images/title.{png}'], {
+                                                        await imagemin(['images/title.{png,}'], {
                                                             destination: 'build/images',
                                                             plugins: [
                                                                 imageminWebp({quality: 50})
                                                             ]
                                                         });
                                                         (async () => {
-                                                            await imagemin(['images/title2.{png}'], {
+                                                            await imagemin(['images/title2.{png,}'], {
                                                                 destination: 'build/images',
                                                                 plugins: [
                                                                     imageminWebp({quality: 50})
