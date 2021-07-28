@@ -1047,14 +1047,15 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width:1080px)
+{ 
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media (max-width: 767px) {
+
     .bloc-mob-center-text {
         text-align: center;
     }
