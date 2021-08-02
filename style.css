@@ -630,7 +630,12 @@ a[data-lightbox]:hover img {
     left: 25px;
 }
 
+.center-block  {
+    width:100px; 
+    height:100px;
 
+
+}
 
 .snapshot-lb .modal-body {
     padding-bottom: 45px;
