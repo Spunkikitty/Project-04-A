@@ -630,7 +630,7 @@ a[data-lightbox]:hover img {
     left: 25px;
 }
 
-.center-block image-resize-mode {
+.center-block  {
     width:100%; 
     padding-top:100%;
 
