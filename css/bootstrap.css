@@ -1432,6 +1432,7 @@ figure {
 
 img {
     vertical-align: middle
+
 }
 
 .carousel-inner>.item>a>img,
@@ -5133,6 +5134,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
     }
+
+   
 }
 
 .container-fluid>.navbar-collapse,
@@ -5142,6 +5145,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-right: -15px;
     margin-left: -15px
 }
+
 
 @media (min-width:768px) {
     .container-fluid>.navbar-collapse,
